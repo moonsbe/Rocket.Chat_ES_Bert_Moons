@@ -79,7 +79,8 @@ end script
 
 After rebooting the server
 
- 
+ ![image](https://user-images.githubusercontent.com/3437364/125816060-a57aa8f2-d828-4fa7-b243-c57424a8b082.png)
+
 
 sudo certbot --nginx
 
