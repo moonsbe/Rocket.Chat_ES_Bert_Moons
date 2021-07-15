@@ -7,6 +7,10 @@ There is one installation done with Snapd and one with Docker
 
 Docker: 
 
+ 
+
+ 
+
 sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-Linux-x86_64" -o /usr/local/bin/docker-compose
 
 sudo chmod +x /usr/local/bin/docker-compose
@@ -22,8 +26,7 @@ sudo snap install core; sudo snap refresh core
 sudo apt-get remove certbot
 sudo snap install --classic certbot
 sudo certbot --nginx
-Last command not yet working -- Moving to the default Rocket.chat installation and finishing the certificate at the end
-
+Last command not yet working
 sudo nano /etc/nginx/certificate.key
 
 curl -L https://raw.githubusercontent.com/RocketChat/Rocket.Chat/develop/docker-compose.yml -o docker-compose.yml
@@ -80,7 +83,7 @@ After rebooting the server
 
 sudo certbot --nginx
 
-![image](https://user-images.githubusercontent.com/3437364/125814092-10ad59e8-33bb-491e-a9f5-a5317d560a61.png)
+![image](https://user-images.githubusercontent.com/3437364/125815926-7233cad7-6418-41c1-b150-3965c2b075ce.png)
 
 
 
